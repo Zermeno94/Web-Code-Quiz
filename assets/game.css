@@ -1,40 +1,43 @@
 body {
-    color: white
+    background-image: url(https://wallpaperaccess.com/full/3859004.jpg);
+    color:white;
+    font-family: 'Nova Square','cursive';
 }
 
 .choice-container {
     display: flex;
     margin-bottom:0.8rem;
-    width: 100%;
-    border-radius: 4px;
+    width: 30%;
+    border-radius: 30px;
     background: rgb(18, 93, 255);
     font-size: 3rem;
-    min-width: 80rem;
+    min-width: 50rem;
 }
 
 .choice-container:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 0 rgb(6, 103, 247, 0.5);
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(6, 103, 247, 0.5);
     transform: scale(1.02);
     transform: transform 100ms;
 }
 
 .choice-prefix {
-    padding: 2rem;
+    padding: 2rem 2.5rem;
     color: white;
 }
 
 .choice-text {
     padding: 2rem;
     width: 100%;
+    color:white;
 }
 
 .correct {
-    background:linear-gradient(32deg, green) 0%,rgb(41,232,111)
+    background:linear-gradient(32deg, rgba(11,223,36) 0%,rgb(41,232,111) 100%);
 }
 
 .incorrect {
-    background:linear-gradient(32deg, red) 0%,rgb(224,11,11,1)
+    background:linear-gradient(32deg, red) 0%,rgb(224,11,11,1) 100%;
 }
 
 #hud {
@@ -56,6 +59,7 @@ body {
     height: 3rem;
     border: 0.2rem solid rgb(11,223,36);
     margin-top: 50px;
+    border-radius: 10px;
     overflow: hidden;
 }
 
