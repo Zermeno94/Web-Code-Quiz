@@ -15,7 +15,23 @@ let availableQuestion = []
 //Questions will be entered here
 let questions = [
     {
-        question: 'What is question 1?',
+        question: 'What is DOM?',
+        choice1: 'none',
+        choice2: 'none',
+        choice3: 'answer',
+        choice4: 'none',
+        answer: answer,
+    },
+    {
+        question: 'What are the types of scopes in JS?',
+        choice1: 'answer',
+        choice2: 'none',
+        choice3: 'none',
+        choice4: 'none',
+        answer: answer,
+    },
+    {
+        question: 'What does "this" keyword mean?',
         choice1: 'none',
         choice2: 'none',
         choice3: 'none',
@@ -23,27 +39,11 @@ let questions = [
         answer: answer,
     },
     {
-        question: 'What is question 1?',
+        question: 'What are the data types in JS?',
         choice1: 'none',
-        choice2: 'none',
+        choice2: 'answer',
         choice3: 'none',
-        choice4: 'answer',
-        answer: answer,
-    },
-    {
-        question: 'What is question 1?',
-        choice1: 'none',
-        choice2: 'none',
-        choice3: 'none',
-        choice4: 'answer',
-        answer: answer,
-    },
-    {
-        question: 'What is question 1?',
-        choice1: 'none',
-        choice2: 'none',
-        choice3: 'none',
-        choice4: 'answer',
+        choice4: 'none',
         answer: answer,
     }
 ]
@@ -110,3 +110,10 @@ choices.forEach(choice => {
         }, 1000)
     })
 })
+
+incrementScore = num => {
+    score +=num
+    scoreText.innerText = score
+}
+
+startGame()
