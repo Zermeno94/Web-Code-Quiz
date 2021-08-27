@@ -1,91 +1,45 @@
 # Hw 04 Web APIs: Code Quiz
-## Your Task
 
-At some point in your journey to become a full-stack web developer, you’ll likely be asked to complete a coding assessment&mdash;perhaps as part of an interview process. A typical coding assessment includes both multiple-choice questions and interactive coding challenges. 
+##  **Description**
+The assignment is to create a timed coding quiz with multiple-choice questions.This assignment provides us insight to the current full-stack web developer interview environment.The objective of this assignment is to utilize all the skills that I taught thus far.
 
-To help familiarize you with these tests and allow you to use the skills covered in this unit, this week’s homework invites you to build a timed coding quiz with multiple-choice questions. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean, polished, and responsive user interface. 
+## **Tasks Completed**
 
-This week’s coursework will equip you with all the skills you need to succeed in this assignment.
+1. Created a responsive "PLAY" and "Highscores" buttos to start code quize. 
+2. Added in progress bar to allow user to see how far they are in the questions. 
+3. Included score board on the top right of page to showcase current score to user. 
+4. Added responsive multiple-choice answers to question preseneted to user. 
+5. If answer is incorrect, it will highlight the selection "red". 
+6. If answer is correct, it will highlight the selection "green".
+7. Inserted a timer. 
+8. Once game is over it will present score to user and allow to score to be saved in webpage.
 
-## User Story
+## **Insert screenshots of code quiz here**
 
-```
-AS A coding boot camp student
-I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
-SO THAT I can gauge my progress compared to my peers
-```
+## **Links**
 
-# ** Resources & Tutorials 
+ [Link to the deployed website] 
 
-* (https://www.youtube.com/watch?v=f4fB9Xg2JEY)
+ [Link to the code repository]
 
+## **Credits**
+Miranda Zermeno
 
 
+## **References and tutorials utilized **
 
-## Acceptance Criteria
-
-```
-GIVEN I am taking a code quiz
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and my score
-```
-
-## Mock-Up
-
-The following animation demonstrates the application functionality:
-
-![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Assets/04-web-apis-homework-demo.gif)
-
-## Grading Requirements
-
-This homework is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the preceding acceptance criteria.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the homework instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
+* [https://www.youtube.com/watch?v=pQr4O1OITJo]
+* [https://www.youtube.com/watch?v=f4fB9Xg2JEY]
+* [https://www.youtube.com/watch?v=49pYIMygIcU]
+* [https://www.youtube.com/watch?v=riDzcEQbX6k]
+* [https://www.w3schools.com/html/html_links.asp]
+* [https://www.w3schools.com/js/js_let.asp]
+* [https://www.w3schools.com/js/js_const.asp]
+* [https://www.w3schools.com/js/js_datatypes.asp]
+* [https://www.w3schools.com/js/js_strings.asp]
+* [https://www.w3schools.com/css/css_dimension.asp]
+* [https://www.w3schools.com/css/css_boxmodel.asp]
+* [https://fonts.google.com/]
+* [https://fontawesome.com/]
+* [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#declarations]
+* [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#variable_scope]
