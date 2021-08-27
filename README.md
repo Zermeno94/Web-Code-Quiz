@@ -14,7 +14,8 @@ The assignment is to create a timed coding quiz with multiple-choice questions.T
 7. Inserted a timer. 
 8. Once game is over it will present score to user and allow to score to be saved in webpage.
 
-## **Insert screenshots of code quiz here**
+![Code Quiz Start Page ](https://user-images.githubusercontent.com/87839888/131063110-98839e6c-4391-43f6-9e26-0c10cf4a5121.png)
+
 
 ## **Links**
 
