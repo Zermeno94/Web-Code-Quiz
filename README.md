@@ -5,9 +5,9 @@ The assignment is to create a timed coding quiz with multiple-choice questions.T
 
 ## **Tasks Completed**
 
-1. Created a responsive "PLAY" and "Highscores" buttos to start code quize. 
-2. Added in progress bar to allow user to see how far they are in the questions. 
-3. Included score board on the top right of page to showcase current score to user. 
+1. Created a responsive "PLAY" buttons to start code quiz. 
+2. I was able to redirect homepage to the the first question. I had trouble redirecting the page to the next question. 
+3. I was able to display score on the far right corner, but unable to get scores functioning. Including timer. I will worker harder in the next one. 
 
 
 ![web code quize home page ](https://user-images.githubusercontent.com/87839888/132963186-476d513e-d883-4ab2-9b8e-0d9b3279f727.png)
@@ -20,7 +20,7 @@ The assignment is to create a timed coding quiz with multiple-choice questions.T
  [Link to the code repository]
 
 ## **Credits**
-Miranda Zermeno
+Miranda Zermeno ( I was able to follow youtube videos to help me through this assignment. This assignment was very challenging.)
 
 
 ## **References and tutorials utilized **
