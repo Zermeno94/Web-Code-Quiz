@@ -1,5 +1,4 @@
-// Declarations that are being targeted
-const question = document.querySelector('#question');
+onst question = document.querySelector('#question');
 const choices = Array.querySelector('.choice-text');
 const progressText = document.querySelector('#progressText');
 const scoreTest = document.querySelector('#score');

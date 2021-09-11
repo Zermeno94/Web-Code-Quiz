@@ -8,11 +8,7 @@ The assignment is to create a timed coding quiz with multiple-choice questions.T
 1. Created a responsive "PLAY" and "Highscores" buttos to start code quize. 
 2. Added in progress bar to allow user to see how far they are in the questions. 
 3. Included score board on the top right of page to showcase current score to user. 
-4. Added responsive multiple-choice answers to question preseneted to user. 
-5. If answer is incorrect, it will highlight the selection "red". 
-6. If answer is correct, it will highlight the selection "green".
-7. Inserted a timer. 
-8. Once game is over it will present score to user and allow to score to be saved in webpage.
+
 
 ![Code Quiz Start Page ](https://user-images.githubusercontent.com/87839888/131063110-98839e6c-4391-43f6-9e26-0c10cf4a5121.png)
 
