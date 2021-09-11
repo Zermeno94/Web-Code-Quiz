@@ -10,7 +10,7 @@ The assignment is to create a timed coding quiz with multiple-choice questions.T
 3. Included score board on the top right of page to showcase current score to user. 
 
 
-![Code Quiz Start Page ](https://user-images.githubusercontent.com/87839888/131063110-98839e6c-4391-43f6-9e26-0c10cf4a5121.png)
+![web code quize home page ](https://user-images.githubusercontent.com/87839888/132963186-476d513e-d883-4ab2-9b8e-0d9b3279f727.png)
 
 
 ## **Links**
