@@ -9,7 +9,6 @@
     --hue-neutral: 200;
     --hue-wrong: 0;
     --hue-correct: 145;
-    
 }
 
 * {
@@ -17,6 +16,7 @@
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 html,
@@ -26,12 +26,12 @@ body {
     justify-content: center;
     height: 100vh;
     width: 100vw;
-    background-color: hsl(var(--hue), 100%, 20%);
+    background-image:("Galaxy.jpg");
 }
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: var(--bg-color);
+    background-image:("Galaxy.jpg");
 }
 
 body.correct {
@@ -197,7 +197,7 @@ article h2 {
 
 .btn:hover {
     cursor:pointer;
-    box-shadow: 0 0.4rem 1.4rem 1 rgba(8, 240, 244, 0.6);
+    box-shadow: 0 0.4rem 1.4rem 1 rgba(244, 236, 8, 0.886);
     transition: transform 150ms;
     transform: scale(1.03);
 }
