@@ -1,56 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!--This will redirect the user to another page once when they clock on "PLAY"-->
-    <title>Quiz Page</title>
-    <!--Created a seperate game.css for quiz questions and answers-->
-    <link ref="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/game.css">
+    <title>Web Code Quiz</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
+
 <body>
     <div class="container">
-        <div id="game" class="justify-center flex-column">
-            <div id="hud">
-                <div class="hud-item">
-                    <p id="progressText" class="hud-prefix">
-                        <!--This will let the user beaware that a question will be asked-->
-                        Question
-                    </p>
-                </div>
-                <div class="hud-item">
-                    <p class="hud-prefix">
-                        Score
-                    </p>
-                    <h1 class="hud-main-text-" id="score">
-                        0
-                    </h1>
-                </div>
-            </div>
-            <!--The question will be presented with multiple choices for user.-->
-            <h1 id="question">What is the DOM?</h1>
-            <!--Multiple choices presented to user to select.-->
-            <div class="choice-container">
-                <p class="choice-prefix">A</p>
-                <p class="choice-text" data-number="1">Nickname to a main character in Fast & Furious.</p>
-            </div>
-            <div class="choice-container">
-                <p class="choice-prefix">B</p>
-                <p class="choice-text" data-number="2">Declation of Metrics.</p>
-            </div>
-            <div class="choice-container">
-                <p class="choice-prefix">C</p>
-                <p class="choice-text" data-number="3">Document Object Model.</p>
-            </div>
-            <div class="choice-container">
-                <p class="choice-prefix">D</p>
-                <p class="choice-text" data-number="4">Document Observer Model.</p>
-            </div>
-        </div>
+        <h1>HIGH SCORES</h1>
+        <form id="scores-form">
+            <label for="scores-text">Enter in your Initials</label>
+            <input type="text" placeholder="Enter in your initials" name="scores-text" id="scores-text" />
+        </form>
+        <p>High Scores List: <span id="scores-count">0</span></p>
+        <ul id="scores-list"></ul>
     </div>
-    <!--Links JS-->
-    <script src="/assets/js/script.js"></script>
+    <script src="./assets/js/score.js"></script>
 </body>
+
 </html>

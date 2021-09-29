@@ -10,8 +10,6 @@ The assignment is to create a timed coding quiz with multiple-choice questions.T
 3. I was able to display score on the far right corner, but unable to get scores functioning. Including timer. I will worker harder in the next one. 
 
 
-![web code quize home page ](https://user-images.githubusercontent.com/87839888/132963186-476d513e-d883-4ab2-9b8e-0d9b3279f727.png)
-
 
 ## **Links**
 

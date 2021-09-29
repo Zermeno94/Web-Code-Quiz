@@ -1,23 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
-    <!--Tile of webpage-->
-<title>Quiz</title>
- <!--links to css for quiz.Included game icon-->
-<link rel="stylesheet" href="./assets/css/style.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Code Quiz</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
+
 <body>
     <div class="container">
-        <div id="home" class="flex-column flex-center">
-            <!--Header of webstite-->
-            <h1>Web code Quiz</h1>
-            <!--Added in responsive button to start game and keep up scores-->
-            <a href="game.html" class="btn">Play <i class="fas fa-gamepad"></i></i></a>
+        <div id="quiz-area">
+            <div id="question">Question</div>
+            <div id="answers" class="btn-grid">
+
+                <button class="btn"></button>
+
+                <button class="btn"></button>
+
+                <button class="btn"></button>
+
+                <button class="btn"></button>
+
+            </div>
+
+            <div id="highScores">
+                <p class="highScoreDisplay" id="highScore"><a href="game.html">View Highscores</a></p>
+            </div>
+            <div class="timeLeft">
+                <p class="timeDisplay" id="time" data-state="hidden">Time: </p>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn">Start</button>
+            <button id="next-btn" class="next-btn btn hide">Next</button>
+            <button id="end-btn" class="next-btn btn hide">End Game</button>
         </div>
     </div>
     <script src="./assets/js/script.js"></script>
 </body>
+
 </html>
