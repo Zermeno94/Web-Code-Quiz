@@ -2,20 +2,26 @@
 
 /* Setting variables for the page   */
 
-:root {
+/* :root {
     --primary-color: black;
     --bg-color: white;
     --light: white;
     --hue-neutral: 200;
     --hue-wrong: 0;
     --hue-correct: 145;
+} */
+
+body{
+    background-image: url(https://wallpapercave.com/wp/wp2567196.jpg);
+    font-family: 'Nova Square','cursive';
+   color: white;
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Nova Square','cursive';
 
 }
 
@@ -29,10 +35,10 @@ body {
     background-image:("Galaxy.jpg");
 }
 
-body {
+/* body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-image:("Galaxy.jpg");
-}
+} */
 
 body.correct {
     --hue: var(--hue-correct);
@@ -46,11 +52,12 @@ header div {
     background-color: var(--bg-color);
     width: 20vw;
     height: 30px;
+    color: white
 }
 
 header div h1 {
     font-size: 18px;
-    color: var(--light-text);
+    color: white
 }
 
 
@@ -95,10 +102,10 @@ article h2 {
 .btn {
     --hue: var(--hue-neutral);
     border: 1px solid hsl(var(--hue), 100%, 30%);
-    background-color: hsl(var(--hue), 100%, 50%);
+    background-color: purple;
     border-radius: 5px;
     padding: 5px 10px;
-    color: var(--light);
+    color: white;
     outline: none;
 }
 
